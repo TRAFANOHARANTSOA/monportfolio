@@ -21,7 +21,7 @@
                 <ul class="">
                   <li><a href="index.php" class="icon brands"><i class="fas fa-home "></i><span class="label">Home</span></a></li>
                   <li><a href="#" class="icon brands "><i class="fas fa-address-card "></i><span class="label">A propos</span></a></li>
-                  <li><a href="#" class="icon brands "><i class="fas fa-wallet "></i><span class="label">Portfolio</span></a></li>
+                  <li><a href="#" class="icon brands "><i class="far fa-file-alt"></i><span class="label">Portfolio</span></a></li>
                   <li><a href="contacform.php" class="icon brands "><i class="fas fa-envelope" > </i><span class="label">Contact</span></a></li>
                 </ul>
               </nav>

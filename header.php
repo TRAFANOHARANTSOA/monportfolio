@@ -9,11 +9,8 @@
     <link rel="stylesheet" href="main.css">
   </head>
 
-  <body id="is-preload">
-    <header id="headeranimation">
-      <div id="header">
-        <div id="main">
-          <!-- Header -->
+  <body id="">
+    <header id="">
           <div id="header">
               <h1>Tsiry RAFANOHARANTSOA</h1>
               <p>Développeur Web &nbsp;&bull;&nbsp; Designer web</p>
@@ -26,7 +23,4 @@
                 </ul>
               </nav>
           </div>
-
-        </div>
-      </div>
     </header>

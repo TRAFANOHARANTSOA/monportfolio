@@ -55,7 +55,7 @@ width: 100%;
 /* BG */
 
 #bg {
--webkit-animation: bg 60s linear infinite;
+-webkit-animation: bg 180s linear infinite;
 animation: bg 180s linear infinite;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
@@ -63,7 +63,7 @@ backface-visibility: hidden;
 transform: translate3d(0,0,0);
 /* Set your background with this */
 
-background: #348cb2 url("images/baobabzebu.jpg") bottom left;
+background: url("images/baobabzebu.jpg") bottom left;
 background-repeat: repeat-x;
 height: 100%;
 left: 0;
@@ -113,25 +113,7 @@ position: fixed;
 top: 0;
 width: 100%;
 }
-/* Main */
 
-#main {
-height: 100%;
-left: 0;
-position: fixed;
-text-align: center;
-top: 0;
-width: 100%;
-}
-
-#main:before {
-content: '';
-display: inline-block;
-height: 100%;
-margin-right: 0;
-vertical-align: middle;
-width: 1px;
-}
 /* Header */
 @-webkit-keyframes header {
 0% {
@@ -169,7 +151,7 @@ opacity: 1;
 }
 }
 
-#header, #header_contact {
+#header{
 -webkit-animation: header 1s 2.25s forwards;
 animation: header 1s 2.25s forwards;
 -webkit-backface-visibility: hidden;
@@ -181,7 +163,8 @@ display: inline-block;
 opacity: 0;
 position: relative;
 text-align: center;
-top: 8em;
+top: 18em;
+left:4em;
 vertical-align: middle;
 width: 90%;
 z-index: 999;
@@ -317,22 +300,7 @@ color: #fff;
 display: none;
 }
 
-@media (){
-  #header_contact {
-    top : 2em;
-    }
-    #header h1 {
-    color:#39614E;
-    }
 
-    #header p {
-    color:#e54646;
-    }
-    .fas, .far{
-    color:#39614E;
-    font-size: 50px!important;
-    }
-}
 /*a/
 a {
 -moz-transition: border-color 0.2s ease-in-out;
@@ -369,12 +337,34 @@ font-family: 'Font Awesome 5 Free';
 font-weight: 400;
 }
 /*CONTACT*/
+@-webkit-keyframes contact{
+0% {
+-moz-transform: translate3d(0,1em,0);
+-webkit-transform: translate3d(0,1em,0);
+-ms-transform: translate3d(0,1em,0);
+transform: translate3d(0,1em,0);
+opacity: 0;
+}
+
+100% {
+-moz-transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+opacity: 1;
+}
+}
 #contact{
 z-index: 999;
 color: #39614E;
-}
-.formcontainer{
-  margin-top:24vh;
+-webkit-animation: contact 1s 2.25s forwards;
+animation: contact 1s 2.25s forwards;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+opacity: 0;
+width: 100%;
 }
 .rupture {
   height:5px;

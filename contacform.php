@@ -1,6 +1,6 @@
 <?php session_start();?>
 <?php include 'header.php' ?>
-<section id="contact" class="bg-secondary">
+<section id="contact" class="">
     <div class="container  bg-transparent pt-2 formcontainer">
       <div class="page-header text-center">
         <h1>CONTACT</h1>
@@ -59,5 +59,9 @@
         </div>
       </div>
   </div>
+  <script type="text/javascript">
+      document.getElementById("header").style.display = "none";
+      console.log('hellooo!');
+  </script>
 </section>
 <?php include 'footer.php' ?>

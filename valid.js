@@ -1,4 +1,4 @@
-
+console.log('ici tsiry');
 //CONTACT
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère
 // le formulaire et le champ d'e-mail ainsi que l'élément span
@@ -10,7 +10,7 @@ var name = document.getElementById('yourname');
 var errormail = document.querySelector('.erroremail');
 var errorname = document.querySelector('.errorname');
 
-email.addEventListener("input", function (event) {
+email.addEventListener("input", function(event) {
   // Chaque fois que l'utilisateur saisit quelque chose
   // on vérifie la validité du champ e-mail.
   if (email.validity.valid) {

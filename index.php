@@ -2,7 +2,7 @@
 <?php include 'header.php'?>
 <div id="wrapper">
   <div id="bg"></div>
-  <div id="overlay"></div>
+  <!--<div id="overlay"></div>-->
 </div>
 
 <?php

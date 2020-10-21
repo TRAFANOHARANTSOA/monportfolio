@@ -14,7 +14,7 @@
           <div id="header">
           <div class="headernavbar">
             <div class="">
-              <img src="images/logoportfolioagrandi.png" class="logoportfolio" alt=""/>
+              <img src="images/logoportfoliovf.png" class="logoportfolio" alt=""/>
             </div>
             <nav >
               <ul class="">

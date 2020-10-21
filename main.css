@@ -60,13 +60,13 @@ width: 100%;
 /* BG */
 
 #bg {
--webkit-animation: bg 180s linear infinite;
-animation: bg 180s linear infinite;
+-webkit-animation: bg 35s linear alternate infinite;
+animation: bg 35s linear alternate infinite;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 -webkit-transform: translate3d(0,0,0);
 transform: translate3d(0,0,0);
-/* Set your background with this */
+/* Set background */
 
 background: url("images/baobabzebu.jpg") bottom left;
 background-repeat: repeat-x;
@@ -83,14 +83,14 @@ transform: translate3d(0,0,0);
 }
 
 100% {
--webkit-transform: translate3d(-2250px,0,0);
-transform: translate3d(-2250px,0,0);
+-webkit-transform: translate3d(-400px,0,0);
+transform: translate3d(-400px,0,0);
 }
 }
 
 #bg {
-background-size: 1520px auto;
-width:7000px;
+background-size: 2250px auto;
+width: 3000px;
 }
 
 /* Overlay */

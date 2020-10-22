@@ -48,7 +48,6 @@
               <button type="submit" name="submit" value="envoyer" class="btn btnfooter"> Envoyer </button>
       </form>
 
-      <h2 class="text_center mt-4"> Mes réseaux sociaux </h2>
       <div class="row mt-2 justify-content-center">
 
         <div class="col 2  col-md-1">
@@ -59,9 +58,5 @@
         </div>
       </div>
   </div>
-  <script type="text/javascript">
-      document.getElementById("header").style.display = "none";
-      console.log('hellooo!');
-  </script>
 </section>
 <?php include 'footer.php' ?>

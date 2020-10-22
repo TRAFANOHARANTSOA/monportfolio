@@ -1,4 +1,22 @@
-console.log('ici tsiry');
+const contact = document.getElementById("contact");
+const header = document.getElementById("header");
+const headertext = document.getElementById("headertextdiv");
+//const wrapper = document.getElementById("wrapper");
+//const background = document.getElementById("bg");
+//const linkcolor = document.querySelectorAll("iconmenu1","iconmenu2","iconmenu3","iconmenu4");
+//console.log(linkcolor);
+contact.addEventListener('load', disableHeaderText());
+
+function disableHeaderText() {
+  console.log('hello');
+  header.style.display="block";
+  headertext.style.display="none";
+  //wrapper.style.display="block";
+  //background.style.display="block";
+  //linkcolor.style.color="#39614E";
+}
+
+
 //CONTACT
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère
 // le formulaire et le champ d'e-mail ainsi que l'élément span

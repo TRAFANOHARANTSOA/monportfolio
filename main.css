@@ -14,12 +14,15 @@ color: inherit;
 outline: 0;
 text-decoration: none;
 }
+a{
+  /*color:#fffff2;*/
+  color:#39614E;
+}
 a i:hover {
 border-color: transparent;
 }
 .fas, .far{
-color:#FFFFF2;
-font-size: 50px!important;
+font-size: 25px!important;
 }
 
 .fa-address-card, .fa-envelope{
@@ -30,7 +33,6 @@ font-size: 50px!important;
 }
 /*logo*/
 div .logoportfolio{
-  position: fixed;
   width: 100px;
 }
 /* Wrapper */
@@ -158,7 +160,7 @@ opacity: 1;
 .headernavbar{
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
 }
 
 #header{
@@ -346,6 +348,8 @@ text-transform: none !important;
 font-family: 'Font Awesome 5 Free';
 font-weight: 400;
 }
+
+
 /*CONTACT*/
 @-webkit-keyframes contact{
 0% {

@@ -20,6 +20,7 @@ a{
 }
 a i:hover {
 border-color: transparent;
+
 }
 .fas, .far{
 font-size: 25px!important;
@@ -301,6 +302,7 @@ color: #fff;
 #header nav a:active {
 font-size: 0.95em;
 background: none;
+color:#fffff2;
 }
 
 #header nav a:active:before {
@@ -371,8 +373,8 @@ opacity: 1;
 #contact{
 z-index: 999;
 color: #39614E;
--webkit-animation: contact 1s 2.25s forwards;
-animation: contact 1s 2.25s forwards;
+-webkit-animation: contact 1s 1.5s forwards;
+animation: contact 1s 1.5s forwards;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 -webkit-transform: translate3d(0,0,0);

@@ -425,3 +425,56 @@ textarea:valid {
 	color:#FFFFF2;
 	background-color:#e54646;
 }
+/*portfolio*/
+.iconai, .iconxd {
+  width:17vw;
+}
+.iconps{
+  width:18vw;
+}
+.iconphp, .iconjs{
+width: 20vw;
+}
+.iconmysql{
+  width: 21vw;
+}
+.iconhtml,  .iconwp{
+  width:22vw;
+}
+.iconcss{
+  width:23vw;
+}
+.myskillsicons{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  animation: skills 10s linear alternate infinite;
+  transform-origin: center;
+  transform: translateZ(10px);
+}
+@-webkit-keyframes skills {
+0% {
+-webkit-transform: translateZ(-500px);
+transform: translateZ(-500px);
+}
+
+100% {
+-webkit-transform: translateZ(50px);
+transform: translateZ(50px);
+}
+}
+
+.myskills{
+height: 100%;
+width: 100%;
+position: fixed;
+left: 0;
+top: 0;
+overflow: hidden;
+-webkit-perspective: 50px;*/
+perspective: 50px;*/
+
+}
+.allskills{
+  transform: translateZ();
+}

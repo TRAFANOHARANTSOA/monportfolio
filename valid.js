@@ -1,4 +1,4 @@
-const contact = document.getElementById("contact");
+const multipleId = document.querySelectorAll("contact,myskillspage");
 const header = document.getElementById("header");
 const headertext = document.getElementById("headertextdiv");
 //const wrapper = document.getElementById("wrapper");
@@ -6,8 +6,7 @@ const headertext = document.getElementById("headertextdiv");
 var linkcolor = document.querySelectorAll("#iconmenu1, #iconmenu2, #iconmenu3, #iconmenu4");
 console.log(linkcolor);
 
-contact.addEventListener('load', disableHeaderText());
-
+multipleId.addEventListener('load', disableHeaderText());
 function disableHeaderText() {
   console.log('hello');
   header.style.display="block";
@@ -20,7 +19,6 @@ function disableHeaderText() {
   //wrapper.style.display="block";
   //background.style.display="block";
 }
-
 
 //CONTACT
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère

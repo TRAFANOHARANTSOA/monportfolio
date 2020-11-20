@@ -8,13 +8,17 @@ console.log(linkcolor);
 
 multipleId.addEventListener('load', disableHeaderText());
 function disableHeaderText() {
-  console.log('hello');
+  console.log(multipleId);
   header.style.display="block";
   headertext.style.display="none";
   //document.getElementById("colorlink").innerHTML=linkcolor.length;
+
+  if (multipleId != 0){
   var i;
-  for (i = 0; i < linkcolor.length; i++) {
+  for (i = 0; i < linkcolor.length; i++)
     linkcolor[i].style.color = "#39614E";
+  }else{
+    linkcolor[i].style.color = "#fffff2";
   }
   //wrapper.style.display="block";
   //background.style.display="block";

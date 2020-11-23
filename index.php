@@ -1,10 +1,13 @@
 <?php session_start();?>
 <?php include 'header.php'?>
+<div id="headertextdiv">
+  <h1>Tsiry RAFANOHARANTSOA</h1>
+  <p>Développeur Web &nbsp;&bull;&nbsp; Designer web</p>
+</div>
 <div id="wrapper">
   <div id="bg"></div>
   <!--<div id="overlay"></div>-->
 </div>
-
 <?php
 
 

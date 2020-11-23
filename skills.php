@@ -21,8 +21,6 @@
     <img src="images/face3.png" alt="">
     <img src="images/face5.png" alt="">
   </div>
-</div>
-<div class="animface">
   <div class="animfacewrap">
     <img src="images/face1.png" alt="">
     <img src="images/face2.png" alt="">
@@ -30,6 +28,9 @@
     <img src="images/face5.png" alt="">
   </div>
 </div>
+
+
+
 </section>
 
 <?php include 'footer.php' ?>

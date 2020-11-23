@@ -10,7 +10,7 @@
   </head>
 
   <body id="">
-    <header id="">
+    <header id="headersection">
           <div id="header">
           <div class="headernavbar">
             <div class="">
@@ -25,9 +25,6 @@
               </ul>
             </nav>
           </div>
-          <div id="headertextdiv">
-            <h1>Tsiry RAFANOHARANTSOA</h1>
-            <p>Développeur Web &nbsp;&bull;&nbsp; Designer web</p>
-          </div>
+
         </div>
     </header>

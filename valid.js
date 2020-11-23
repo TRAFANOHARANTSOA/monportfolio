@@ -1,27 +1,15 @@
 const multipleId = document.querySelectorAll("contact,myskillspage");
-const header = document.getElementById("header");
-const headertext = document.getElementById("headertextdiv");
-//const wrapper = document.getElementById("wrapper");
-//const background = document.getElementById("bg");
 var linkcolor = document.querySelectorAll("#iconmenu1, #iconmenu2, #iconmenu3, #iconmenu4");
-console.log(linkcolor);
 
-multipleId.addEventListener('load', disableHeaderText());
+linkcolor.addEventListener('load', disableHeaderText());
 function disableHeaderText() {
-  console.log(multipleId);
-  header.style.display="block";
-  headertext.style.display="none";
-  //document.getElementById("colorlink").innerHTML=linkcolor.length;
-
   if (multipleId != 0){
   var i;
   for (i = 0; i < linkcolor.length; i++)
     linkcolor[i].style.color = "#39614E";
   }else{
-    linkcolor[i].style.color = "#fffff2";
+    linkcolor[i].style.color = "#e54646";
   }
-  //wrapper.style.display="block";
-  //background.style.display="block";
 }
 
 //CONTACT

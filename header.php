@@ -20,7 +20,7 @@
               <ul class="">
                 <li><a id="iconmenu1" href="index.php" class="icon brands" ><i  class="fas fa-home " ></i><span class="label" attribute="accueil">Home</span></a></li>
                 <li><a id="iconmenu2" href="skills.php" class="icon brands "><i  class="fas fa-address-card "></i><span class="label">A propos</span></a></li>
-                <li><a id="iconmenu3" href="#" class="icon brands "><i  class="far fa-file-alt"></i><span class="label">Portfolio</span></a></li>
+                <li><a id="iconmenu3" href="myproject.php" class="icon brands "><i  class="far fa-file-alt"></i><span class="label">Portfolio</span></a></li>
                 <li><a id="iconmenu4"href="contacform.php" class="icon brands "><i  class="fas fa-envelope" > </i><span class="label">Contact</span></a></li>
               </ul>
             </nav>

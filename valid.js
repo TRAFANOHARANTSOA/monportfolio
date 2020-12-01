@@ -1,3 +1,15 @@
+var myProject = document.getElementById("myProject");
+var myImage = document.getElementById("desc1");
+var myDescription = document.getElementById("myprojectdescription");
+myProject.addEventListener("scroll", slideDescription);
+  function slideDescription(){
+  var nbPixInvisible = document.documentElement.scrollTop;
+  console.log(nbPixInvisible);
+ }
+
+function showDescription(){
+  myDescription.style.visibility = "visible";
+}
 //PageSkills//
 const frontend = document.getElementById("frontend");
 const backend = document.getElementById("backend");

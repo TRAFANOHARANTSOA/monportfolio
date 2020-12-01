@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 <?php session_start();?>
   <div id="myProject"   class="myprojectslider" >
-    <img class="imagedefilante" id="desc1" onclick="showDescription()" src="images/bientournerscreenimg.png" alt="">
-    <div id="myprojectdescription">
+    <img class="imagedefilante" id="desc1" onclick="showDescription()"  src="images/bientournerscreenimg.png" alt="">
+    <div id="myprojectdescription" onclick="hideDescription()">
       <h1>Live interactif sur le site Bien-tourner.fr</h1>
       <p>Contexte du projet : stage en entreprise.</p>
       <p>Problématique : mon lieu de stage, l'agence de communication "Bien encré" produit des émissions sur le sport diffusées en directe sur son site dijon-sportnews.fr. Elle a exprimée le besoin de permettre au spectateur d'interagir avec l'équipe de production pendant les diffusions.</p>

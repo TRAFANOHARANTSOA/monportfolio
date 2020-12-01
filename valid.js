@@ -10,6 +10,9 @@ myProject.addEventListener("scroll", slideDescription);
 function showDescription(){
   myDescription.style.visibility = "visible";
 }
+function hideDescription(){
+  myDescription.style.visibility = "hidden";
+}
 //PageSkills//
 const frontend = document.getElementById("frontend");
 const backend = document.getElementById("backend");
@@ -95,20 +98,23 @@ function closeExperienceSkillList(){
   formation.style.visibility = "visible";
 }
 
-//Couleur des icones//
-const multipleId = document.querySelectorAll("contact,myskillspage");
-var linkcolor = document.querySelectorAll("#iconmenu1, #iconmenu2, #iconmenu3, #iconmenu4");
-
-linkcolor.addEventListener('load', disableHeaderText());
-function disableHeaderText() {
-  if (multipleId != 0){
-  var i;
-  for (i = 0; i < linkcolor.length; i++)
-    linkcolor[i].style.color = "#39614E";
-  }else{
-    linkcolor[i].style.color = "#e54646";
-  }
-}
+// // //Couleur des icones//
+// var multipleId = document.getElementById("headertextdiv");
+// //var linkColor = document.querySelector("a");
+//
+// console.log(typeof multipleId);
+// var linkColor = document.querySelectorAll("#iconmenu1, #iconmenu2, #iconmenu3, #iconmenu4");
+// //
+// multipleId.onload = function(){
+// //linkColor.style.color = "#FFFFF2";
+//   if (multipleId != 0){
+//   var i;
+//   for (i = 0; i < linkcolor.length; i++)
+//   linkColor[i].style.color = "#FFFFF2";
+//   }else{
+//     linkColor[i].style.color = "#39614E";
+//   }
+// };
 
 //CONTACT//
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère

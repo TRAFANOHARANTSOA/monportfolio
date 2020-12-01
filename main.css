@@ -18,11 +18,11 @@ outline: 0;
 text-decoration: none;
 }
 a{
-  color:#fffff2;
+  color:#39614E;
 }
 a i:hover {
 border-color: transparent;
-
+color:#e54646;
 }
 .fas, .far{
 font-size: 25px!important;

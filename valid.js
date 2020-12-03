@@ -1,18 +1,4 @@
-var myProject = document.getElementById("myProject");
-var myImage = document.getElementById("desc1");
-var myDescription = document.getElementById("myprojectdescription");
-myProject.addEventListener("scroll", slideDescription);
-  function slideDescription(){
-  var nbPixInvisible = document.documentElement.scrollTop;
-  console.log(nbPixInvisible);
- }
 
-function showDescription(){
-  myDescription.style.visibility = "visible";
-}
-function hideDescription(){
-  myDescription.style.visibility = "hidden";
-}
 //PageSkills//
 const frontend = document.getElementById("frontend");
 const backend = document.getElementById("backend");
@@ -115,7 +101,33 @@ function closeExperienceSkillList(){
 //     linkColor[i].style.color = "#39614E";
 //   }
 // };
+//PAGE PROJECT//
+var myProject = document.getElementById("myProject");
+var myImage = document.getElementById("desc1");
+var myDescription = document.getElementById("myprojectdescription");
+myProject.addEventListener("scroll",slideDescription);
+function slideDescription(){
+  var nbPixInvisible = myProject.scrollTop;
+  var nbPixTotal = myProject.scrollHeight;
+  var nbPixVisible = myProject.clientHeight;
+  var nbTotalPixInvisible = nbPixTotal-nbPixVisible;
+  var pourcentage = (nbPixInvisible / nbTotalPixInvisible) * 100;
+  console.log(nbPixInvisible);
+  console.log(nbPixTotal);
+  console.log(nbPixVisible);
+  console.log(nbTotalPixInvisible);
+  console.log(pourcentage);
+  if(nbPixInvisible > 1){
+  myDescription.style.visibility = "visible";
+}else{
+    myDescription.style.visibility = "hidden";
+}
+};
 
+
+function hideDescription(){
+  myDescription.style.visibility = "hidden";
+}
 //CONTACT//
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère
 // le formulaire et le champ d'e-mail ainsi que l'élément span

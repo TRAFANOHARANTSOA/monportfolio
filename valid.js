@@ -130,6 +130,8 @@ if(nbPixInvisible > 15 ){
 }else{
     myDescription.style.visibility = "visible";
 };
+myDescription1.style.backgroundColor = "#1c1b1b";
+myDescription1.style.color = "#dbd9d6";
 
 if(nbPixInvisible > 1400 && nbPixInvisible < 2300){
   myDescription1.style.visibility ="visible";
@@ -139,7 +141,10 @@ if(nbPixInvisible > 1400 && nbPixInvisible < 2300){
   myImage.style.display ="block";
   }
 
-if(nbPixInvisible > 3000 && nbPixInvisible < 4200){
+  myDescription2.style.backgroundColor = "#0da5a0";
+  myDescription2.style.color = "#ffffff";
+
+if(nbPixInvisible > 2800 && nbPixInvisible < 4200){
   myDescription2.style.visibility ="visible";
   myImage1.style.display ="none";
 }else{
@@ -147,10 +152,14 @@ if(nbPixInvisible > 3000 && nbPixInvisible < 4200){
   myImage1.style.display ="block";
   }
 
-if(nbPixInvisible > 4400){
+  myDescription3.style.backgroundColor = "#9ea2ff";
+  myDescription3.style.color = "#ffffff";
+
+if(nbPixInvisible > 4300){
   myDescription3.style.visibility ="visible";
   myImage2.style.display ="none";
 }else{
+  myDescription3.style.visibility ="hidden";
   myImage2.style.display ="block";
   }
 

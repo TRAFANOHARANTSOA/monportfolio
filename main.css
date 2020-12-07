@@ -765,8 +765,8 @@ perspective: 50px;*/
 }
 
 .imagedefilante{
-  width: 45vh;
-  height: 75vw;
+  width: 20vh;
+  height: 80vw;
   padding: 5em;
   -webkit-animation: anim 2.25s forwards;
   animation: anim 2.25s forwards;
@@ -789,10 +789,10 @@ opacity: 1;
 #myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3{
 position: absolute;
 visibility:visible;
-top: 20vh;
-left: -15vw;
+top: 10vh;
+left: -20vw;
 height: 65vh;
-width: 15vw;
+width: 20vw;
 margin: auto;
 padding: 2vh;
 background-color: #f3f6f9;
@@ -816,4 +816,7 @@ opacity: 1;
 }
 #myprojectdescription1, #myprojectdescription2, #myprojectdescription3{
   visibility: hidden;
+}
+#desc1,#desc2,#desc3,#desc4{
+  width:50vw;
 }

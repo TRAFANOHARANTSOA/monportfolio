@@ -119,11 +119,8 @@ function slideDescription(){
   console.log(pourcentage);
   if(nbPixInvisible > 1){
   myDescription.style.visibility = "visible";
-}else{
-    myDescription.style.visibility = "hidden";
 }
 };
-
 
 function hideDescription(){
   myDescription.style.visibility = "hidden";

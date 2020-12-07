@@ -104,7 +104,14 @@ function closeExperienceSkillList(){
 //PAGE PROJECT//
 var myProject = document.getElementById("myProject");
 var myImage = document.getElementById("desc1");
+var myImage1 = document.getElementById("desc2");
+var myImage2 = document.getElementById("desc3");
+var myImage3 = document.getElementById("desc4");
+var myImageDefilante = document.getElementsByClassName('imagedefilante')
 var myDescription = document.getElementById("myprojectdescription");
+var myDescription1 = document.getElementById("myprojectdescription1");
+var myDescription2 = document.getElementById("myprojectdescription2");
+var myDescription3 = document.getElementById("myprojectdescription3");
 myProject.addEventListener("scroll",slideDescription);
 function slideDescription(){
   var nbPixInvisible = myProject.scrollTop;
@@ -117,17 +124,42 @@ function slideDescription(){
   console.log(nbPixVisible);
   console.log(nbTotalPixInvisible);
   console.log(pourcentage);
-  if(nbPixInvisible > 1){
-  myDescription.style.visibility = "visible";
+
+if(nbPixInvisible > 15 ){
+  myDescription.style.visibility = "hidden";
 }else{
+    myDescription.style.visibility = "visible";
+};
+
+if(nbPixInvisible > 1400 && nbPixInvisible < 2300){
+  myDescription1.style.visibility ="visible";
+  myImage.style.display ="none";
+}else{
+  myDescription1.style.visibility ="hidden";
+  myImage.style.display ="block";
+  }
+
+if(nbPixInvisible > 3000 && nbPixInvisible < 4200){
+  myDescription2.style.visibility ="visible";
+  myImage1.style.display ="none";
+}else{
+  myDescription2.style.visibility ="hidden";
+  myImage1.style.display ="block";
+  }
+
+if(nbPixInvisible > 4400){
+  myDescription3.style.visibility ="visible";
+  myImage2.style.display ="none";
+}else{
+  myImage2.style.display ="block";
+  }
+
+  function hideDescription(){
     myDescription.style.visibility = "hidden";
-}
+  }
 };
 
 
-function hideDescription(){
-  myDescription.style.visibility = "hidden";
-}
 //CONTACT//
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère
 // le formulaire et le champ d'e-mail ainsi que l'élément span

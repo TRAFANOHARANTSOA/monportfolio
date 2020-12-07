@@ -763,34 +763,17 @@ perspective: 50px;*/
   display: block;
 
 }
+
 .imagedefilante{
-  width:60vw;
-  height:80vh;
-  transform: rotate(90deg) translateX(100vw);
-  padding:5em;
+  width: 45vh;
+  height: 75vw;
+  padding: 5em;
   -webkit-animation: anim 2.25s forwards;
   animation: anim 2.25s forwards;
 }
 ::-webkit-scrollbar{
   display:none;
 }
-#myprojectdescription{
-position: absolute;
-visibility: hidden;
-top: 55vh;
-left: 20vw;
-height: 50vh;
-width: 20vw;
-margin: auto;
-padding: 2vh;
-background-color: #f3f6f9;
-color: #402e1b;
-z-index: 999;
-opacity:0.94!important;
--webkit-animation: anim 5s forwards;
-animation: anim 5s forwards;
-}
-
 @-webkit-keyframes anim {
 0% {
 -webkit-transform: rotate(90deg) translate3d(0,25em,0);
@@ -802,4 +785,35 @@ opacity: 0;
 transform: rotate(90deg) translate3d(0,0,0);
 opacity: 1;
 }
+}
+#myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3{
+position: absolute;
+visibility:visible;
+top: 20vh;
+left: -15vw;
+height: 65vh;
+width: 15vw;
+margin: auto;
+padding: 2vh;
+background-color: #f3f6f9;
+color: #402e1b;
+z-index: 999;
+opacity:0.94!important;
+-webkit-animation: anim1 5s forwards;
+animation: anim1 5s forwards;
+}
+@-webkit-keyframes anim1 {
+0% {
+-webkit-transform: rotate(0deg) translate3d(0,25em,0);
+transform: rotate(0deg) translate3d(0,25em,0);
+opacity: 0;
+}
+100% {
+-webkit-transform: rotate(0deg) translate3d(0,0,0);
+transform: rotate(0deg) translate3d(0,0,0);
+opacity: 1;
+}
+}
+#myprojectdescription1, #myprojectdescription2, #myprojectdescription3{
+  visibility: hidden;
 }

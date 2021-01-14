@@ -1,10 +1,13 @@
 
 //PageSkills//
+const myskillspage = document.getElementById('myskillspage')
 const frontend = document.getElementById("frontend");
 const backend = document.getElementById("backend");
 const gestiondeprojet = document.getElementById("Gestiondeprojet");
 const formation = document.getElementById("formation");
 const experiences = document.getElementById("experiences");
+const titlefrontend = document.getElementById("titlefrontend");
+
 
 
 const frontendskilllist = document.getElementById("frontendskilllist");
@@ -14,6 +17,8 @@ function openFrontendSkillList(){
   gestiondeprojet.style.visibility = "hidden";
   formation.style.visibility = "hidden";
   experiences.style.visibility = "hidden";
+  titlefrontend.style.color = "#e54646";
+
 }
 function closeFrontendSkillList(){
   frontendskilllist.style.visibility = "hidden";
@@ -21,6 +26,9 @@ function closeFrontendSkillList(){
   gestiondeprojet.style.visibility = "visible";
   formation.style.visibility = "visible";
   experiences.style.visibility = "visible";
+  titlefrontend.style.color = "#4f7361";
+
+
 }
 const backendskilllist = document.getElementById("backendskilllist");
 function openBackendSkillList(){
@@ -29,6 +37,7 @@ function openBackendSkillList(){
   gestiondeprojet.style.visibility = "hidden";
   formation.style.visibility = "hidden";
   experiences.style.visibility = "hidden";
+
 }
 function closeBackendSkillList(){
   backendskilllist.style.visibility = "hidden";
@@ -36,6 +45,7 @@ function closeBackendSkillList(){
   gestiondeprojet.style.visibility = "visible";
   formation.style.visibility = "visible";
   experiences.style.visibility = "visible";
+
 }
 const projectskilllist = document.getElementById("projectskilllist");
 function openProjectSkillList(){
@@ -52,6 +62,7 @@ function closeProjectSkillList(){
   backend.style.visibility = "visible";
   formation.style.visibility = "visible";
   experiences.style.visibility = "visible";
+
 }
 const studyskilllist = document.getElementById("studyskilllist");
 function openStudySkillList(){
@@ -60,6 +71,7 @@ function openStudySkillList(){
   backend.style.visibility = "hidden";
   gestiondeprojet.style.visibility = "hidden";
   experiences.style.visibility = "hidden";
+
 }
 function closeStudySkillList(){
   studyskilllist.style.visibility = "hidden";
@@ -67,6 +79,7 @@ function closeStudySkillList(){
   backend.style.visibility = "visible";
   gestiondeprojet.style.visibility = "visible";
   experiences.style.visibility = "visible";
+
 }
 const experienceskilllist = document.getElementById("experienceskilllist");
 function openExperienceSkillList(){
@@ -75,6 +88,7 @@ function openExperienceSkillList(){
   backend.style.visibility = "hidden";
   gestiondeprojet.style.visibility = "hidden";
   formation.style.visibility = "hidden";
+
 }
 function closeExperienceSkillList(){
   experienceskilllist.style.visibility = "hidden";
@@ -82,6 +96,7 @@ function closeExperienceSkillList(){
   backend.style.visibility = "visible";
   gestiondeprojet.style.visibility = "visible";
   formation.style.visibility = "visible";
+
 }
 
 // // //Couleur des icones//
@@ -127,6 +142,7 @@ function slideDescription(){
 
 if(nbPixInvisible > 15 ){
   myDescription.style.visibility = "hidden";
+
 }else{
     myDescription.style.visibility = "visible";
 };
@@ -155,7 +171,7 @@ if(nbPixInvisible > 2800 && nbPixInvisible < 4200){
   myDescription3.style.backgroundColor = "#9ea2ff";
   myDescription3.style.color = "#ffffff";
 
-if(nbPixInvisible > 4300){
+if(nbPixInvisible > 4400){
   myDescription3.style.visibility ="visible";
   myImage2.style.display ="none";
 }else{

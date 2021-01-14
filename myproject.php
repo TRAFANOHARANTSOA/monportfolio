@@ -11,7 +11,6 @@
         <p>Moyens mis en oeuvre : serveur dédié tournant sous la distribution ubuntu sur un noyau linux</p>
       </div>
     </div>
-
     <div class="imagedefilante">
     <img class="" id="desc2" src="images/concessionautoscreenimg.png" alt="" >
     <div id="myprojectdescription1" onclick="hideDescription()">
@@ -43,8 +42,5 @@
         <p>Moyens mis en oeuvre : serveur dédié tournant sous la distribution ubuntu sur un noyau linux</p>
       </div>
     </div>
-
   </div>
-
-
 <?php include 'footer.php' ?>

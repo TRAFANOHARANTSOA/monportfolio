@@ -1,11 +1,14 @@
 <?php session_start();?>
 <?php include 'header.php'?>
+<section >
+
+
 <div id="headertextdiv">
-  <h1>Tsiry RAFANOHARANTSOA</h1>
-  <p>Développeur Web &nbsp;&bull;&nbsp; Designer web</p>
+  <h1>Développeur &nbsp;&bull;&nbsp; Designer Web</h1>
+  <p>Tsiry RAFANOHARANTSOA</p>
 </div>
 <div id="wrapper">
-  <div id="bg"></div>
+  <div id="bg" class="img-fluid"></div>
   <!--<div id="overlay"></div>-->
 </div>
 <?php
@@ -57,6 +60,8 @@
                             event.preventDefault();
                           }
                         },false); */
+
  ?>
 
+</section>
 <?php include 'footer.php'?>

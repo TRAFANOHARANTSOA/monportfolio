@@ -8,7 +8,7 @@
   <p>Tsiry RAFANOHARANTSOA</p>
 </div>
 <div id="wrapper">
-  <div id="bg" class="img-fluid"></div>
+  <div id="bg"></div>
   <!--<div id="overlay"></div>-->
 </div>
 <?php

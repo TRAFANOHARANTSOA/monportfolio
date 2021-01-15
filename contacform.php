@@ -5,7 +5,7 @@
       <div class="page-header text-center">
         <h1>CONTACT</h1>
         <p>Ecrivez moi.</p>
-        <hr class="rupture">
+  
       </div>
 
       <?php if(array_key_exists('errors', $_SESSION)): ?> <!--afficher les erreurs dans session, ":" remplace une balise ouvrante et endif une fermente pour rassemlber des instructions dauns un seul bloc.-->
@@ -23,7 +23,7 @@
 
 
       <form action ="contact.php" method="post" novalidate>
-        <div class="form-group">
+        <div class="form-group ">
               <label for="yourname"> Nom   </label>
               <input type="text text-light" id ="yourname" class="form-control" name="name" value="<?php echo isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
               <span class="text-light errorname" aria-live ="polite" > </span>

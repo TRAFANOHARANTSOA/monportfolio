@@ -122,11 +122,15 @@ var myImage = document.getElementById("desc1");
 var myImage1 = document.getElementById("desc2");
 var myImage2 = document.getElementById("desc3");
 var myImage3 = document.getElementById("desc4");
+var myImage4 = document.getElementById("desc5");
+var myImage5 = document.getElementById("desc6");
 var myImageDefilante = document.getElementsByClassName('imagedefilante')
 var myDescription = document.getElementById("myprojectdescription");
 var myDescription1 = document.getElementById("myprojectdescription1");
 var myDescription2 = document.getElementById("myprojectdescription2");
 var myDescription3 = document.getElementById("myprojectdescription3");
+var myDescription4 = document.getElementById("myprojectdescription4");
+var myDescription5 = document.getElementById("myprojectdescription5");
 myProject.addEventListener("scroll",slideDescription);
 function slideDescription(){
   var nbPixInvisible = myProject.scrollTop;
@@ -178,8 +182,21 @@ if(nbPixInvisible > 4400){
   myDescription3.style.visibility ="hidden";
   myImage2.style.display ="block";
   }
-
-  function hideDescription(){
+  if(nbPixInvisible > 5200){
+    myDescription4.style.visibility ="visible";
+    myImage3.style.display ="none";
+  }else{
+    myDescription4.style.visibility ="hidden";
+    myImage3.style.display ="block";
+    }
+  if(nbPixInvisible > 7000){
+    myDescription5.style.visibility ="visible";
+    myImage4.style.display ="none";
+  }else{
+    myDescription5.style.visibility ="hidden";
+    myImage4.style.display ="block";
+    }
+      function hideDescription(){
     myDescription.style.visibility = "hidden";
   }
 };

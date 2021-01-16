@@ -7,10 +7,10 @@
       <img class="" id="desc1"  src="images/bientournerscreenimg.png" alt="">
       <div id="myprojectdescription" onclick="hideDescription()">
         <h1 class="projects-title">Live interactif sur le site Bien-tourner.fr</h1>
-        <p>Contexte du projet : stage en entreprise.</p>
-        <p>Problématique : mon lieu de stage, l'agence de communication "Bien encré" produit des émissions sur le sport diffusées en directe sur son site dijon-sportnews.fr. Elle a exprimée le besoin de permettre au spectateur d'interagir avec l'équipe de production pendant les diffusions.</p>
-        <p>Solution : le système de visioconférence BigBlueButton qui permet un live interactif avec toutes les fonctionnalités listées dans les besoins du demandeur. C'est un outil libre d'utilisation et adaptable.</p>
-        <p>Moyens mis en oeuvre : serveur dédié tournant sous la distribution ubuntu sur un noyau linux. Protocole SSH pour l'administration du serveur.</p>
+        <p>Contexte du projet : Stage en entreprise.</p>
+        <p>Problématique : L'agence de communication "Bien encré" a exprimée le besoin d'interagir avec ses téléspectateurs pendant les diffusions d'émissions sur son site dijon-sportnews.fr .</p>
+        <p>Solution : Le système de visioconférence BigBlueButton, un outil libre d'utilisation et adaptable intégrant de multiples fonctionnalités.</p>
+        <p>Moyens mis en oeuvre : Serveur dédié OVH, Ubuntu sur Linux. Protocole SSH pour l'administration du serveur.</p>
         <p class="projects-link">
           <a href="https://bien-tourner.fr/b" title="Voir le site"><i class="fas fa-link"></i></a>
           <a href=""></a>
@@ -83,8 +83,35 @@
         <p>Problématique : Création graphique d'un site web d'office de tourisme pour transmission à une équipe d'intégrateurs.</p>
         <p>Moyens mis en oeuvre : Photoshop</p>
         <p class="projects-link">
-          <a href="https://tsiryr.promo-42.codeur.online/photoshop/visite-beauvais-desktop.psd" title="Téléchargez le fichier PSD de la version Desktop"><i class="far fa-images"></i></a>
-          <a href="https://tsiryr.promo-42.codeur.online/photoshop/visite-beauvais-mobile.psd" title="Téléchargez le fichier PSD de la version Mobile"><i class="far fa-images"></i></a>
+          <a href="https://tsiryr.promo-42.codeur.online/photoshop/Maquette_MIAM_MIAM-desktop.psd" title="Téléchargez le fichier PSD de la version Desktop"><i class="far fa-images"></i></a>
+          <a href="https://tsiryr.promo-42.codeur.online/photoshop/Maquette_MIAM_MIAM-mobile.psd" title="Téléchargez le fichier PSD de la version Mobile"><i class="far fa-images"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="imagedefilante">
+      <img class=""  id="desc7" src="images/flappy_bird.png" alt="" >
+      <div id="myprojectdescription6" onclick="hideDescription()">
+        <h1 class="projects-title">Jeu de type "Flappy-bird" </h1>
+        <p>Contexte du projet : Formation Access Code School.</p>
+        <p>Problématique : Réalisation d'un jeu de type "Flappy-bird" personnalisé.</p>
+        <p>Moyens mis en oeuvre : Javascript </p>
+        <p class="projects-link">
+          <a href="https://tsiryr.promo-42.codeur.online/flappy/" title="Voir la page web"><i class="fas fa-link"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="imagedefilante">
+      <img class=""  id="desc8" src="images/greenit.png" alt="" >
+      <div id="myprojectdescription7" onclick="hideDescription()">
+        <h1 class="projects-title">Projet Greenit</h1>
+        <p>Contexte du projet : Formation Access Code School.</p>
+        <p>Problématique : Création d'une maquette mobile sur la base d'une maquette desktop et intégration de la page web.</p>
+        <p>Moyens mis en oeuvre : HTML, CSS, Bootstrap, Adobe Photoshop, Adobe Illustrator </p>
+        <p class="projects-link">
+          <a href="https://tsiryr.promo-42.codeur.online/greenit" title="Voir la page web"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/TRAFANOHARANTSOA/GREENIT" title="Consultez le code sur Github"><i class="fab fa-github"></i></a>
+          <a href="https://tsiryr.promo-42.codeur.online/photoshop/accueil-greenit.psd" title="Téléchargez le fichier PSD de la version Desktop"><i class="far fa-images"></i></a>
+          <a href="https://tsiryr.promo-42.codeur.online/photoshop/accueil_greenit_mob.psd" title="Téléchargez le fichier PSD de la version Mobile"><i class="far fa-images"></i></a>
         </p>
       </div>
     </div>

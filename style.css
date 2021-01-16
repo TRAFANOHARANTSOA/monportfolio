@@ -728,13 +728,13 @@ font-size : 15px!important;
     margin-top: 75vh!important;
 }
 .imagedefilante {
-    width: 54vh!important;
-    height: 84vw!important;
+    width: 64vh!important;
+    height: 98vw!important;
 }
-#desc1, #desc2, #desc3, #desc4,#desc5,#desc6 {
+#desc1, #desc2, #desc3, #desc4,#desc5,#desc6,#desc7,#desc8 {
     width: 85vw!important;
 }
-#myprojectdescription , #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4,#myprojectdescription5{
+#myprojectdescription , #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4,#myprojectdescription5, #myprojectdescription6, #myprojectdescription7{
     top: 50vh!important;
     left: 0!important;
     height: 20vh!important;
@@ -744,54 +744,59 @@ font-size : 15px!important;
 }
 
 @media screen and (max-width : 768px){
-  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1, #myprojectdescription4 h1, #myprojectdescription5 h1{
+  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1, #myprojectdescription4 h1, #myprojectdescription5 h1, #myprojectdescription6 h1, #myprojectdescription7 h1{
     font-size : 1.75em!important;
   }
-  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p{
+  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p, #myprojectdescription4 p ,#myprojectdescription5 p, #myprojectdescription6 p, #myprojectdescription7 p {
     font-size : 0.75em!important;
   }
   .myprojectslider {
       margin-top: 68vh!important;
   }
-  #myprojectdescription , #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4 ,#myprojectdescription5  {
+  #myprojectdescription , #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4 ,#myprojectdescription5, #myprojectdescription6, #myprojectdescription7  {
       height: 30vh!important;
       top: 47vh!important;
   }
-  #desc1, #desc2, #desc3, #desc4,#desc5,#desc6 {
+  #desc1, #desc2, #desc3, #desc4,#desc5,#desc6,#desc7,#desc8  {
       width: 70vw!important;
   }
+  .imagedefilante {
+    width: 58vh!important;
+    height: 88vw!important;
+}
 }
 @media screen and (max-width : 540px){
-  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1, #myprojectdescription4 h1, #myprojectdescription5 h1{
+  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1, #myprojectdescription4 h1, #myprojectdescription5 h1, #myprojectdescription6 h1, #myprojectdescription7 h1{
     font-size : 1em!important;
   }
-  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p, #myprojectdescription4 p ,#myprojectdescription5 p{
+  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p, #myprojectdescription4 p ,#myprojectdescription5 p, #myprojectdescription6 p, #myprojectdescription7 p{
     font-size : 0.60em!important;
   }
 }
 @media screen and (max-width : 414px){
-  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1,#myprojectdescription4 h1,#myprojectdescription5 h1{
+  #myprojectdescription h1, #myprojectdescription1 h1, #myprojectdescription2 h1, #myprojectdescription3 h1,#myprojectdescription4 h1,#myprojectdescription5 h1, #myprojectdescription6 h1, #myprojectdescription7 h1{
     font-size : 0.75em!important;
   }
-  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p, #myprojectdescription4 p,#myprojectdescription5 p{
+  #myprojectdescription p, #myprojectdescription1 p, #myprojectdescription2 p, #myprojectdescription3 p, #myprojectdescription4 p,#myprojectdescription5 p,#myprojectdescription6 p,#myprojectdescription7 p{
     font-size : 0.20em!important;
   }
   .imagedefilante {
-    width: 40vh!important;
-    height: 82vw!important;
+    width: 44vh!important;
+    height: 90vw!important;
 }
 .myprojectslider {
-    margin-top: 60vh!important;
+    margin-top: 62vh!important;
 }
-#myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3,#myprojectdescription4,#myprojectdescription5 {
-    height: 25vh!important;
-    top: 40vh!important;
+#myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3,#myprojectdescription4,#myprojectdescription5,#myprojectdescription6,#myprojectdescription7 {
+    height: 26vh!important;
+    top: 38vh!important;
     width:80vw!important;
 }
-#desc1, #desc2, #desc3, #desc4,#desc5,#desc6 {
-    width: 65vw!important;
+#desc1, #desc2, #desc3, #desc4,#desc5,#desc6,#desc7,#desc8  {
+    width: 64vw!important;
 }
 }
+
 .imagedefilante{
   width: 20vh;
   height: 80vw;
@@ -814,16 +819,16 @@ transform: rotate(90deg) translate3d(0,0,0);
 opacity: 1;
 }
 }
-#myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4,#myprojectdescription5{
+#myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4,#myprojectdescription5,#myprojectdescription6,#myprojectdescription7{
 position: absolute;
 visibility:visible;
 top: 10vh;
 left: -20vw;
 height: 65vh;
-width: 20vw;
+width: 24vw;
 margin: auto;
 padding: 2vh;
-background-color: #f3f6f9;
+background-color: #afafaf;
 color: #402e1b;
 z-index: 999;
 opacity:0.94!important;
@@ -842,10 +847,15 @@ transform: rotate(0deg) translate3d(0,0,0);
 opacity: 1;
 }
 }
-#myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4, #myprojectdescription5{
+#myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4, #myprojectdescription5,#myprojectdescription6,#myprojectdescription7{
   visibility: hidden;
 }
-#desc1,#desc2,#desc3,#desc4,#desc5,#desc6{
+@media screen and (max-width : 1024px){
+  #myprojectdescription, #myprojectdescription1, #myprojectdescription2, #myprojectdescription3, #myprojectdescription4, #myprojectdescription5,#myprojectdescription6,#myprojectdescription7{
+    visibility: visible!important;
+  }
+}
+#desc1,#desc2,#desc3,#desc4,#desc5,#desc6,#desc7,#desc8 {
   width:50vw;
 }
 

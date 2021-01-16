@@ -124,6 +124,7 @@ var myImage2 = document.getElementById("desc3");
 var myImage3 = document.getElementById("desc4");
 var myImage4 = document.getElementById("desc5");
 var myImage5 = document.getElementById("desc6");
+var myImage6 = document.getElementById("desc7");
 var myImageDefilante = document.getElementsByClassName('imagedefilante')
 var myDescription = document.getElementById("myprojectdescription");
 var myDescription1 = document.getElementById("myprojectdescription1");
@@ -131,6 +132,8 @@ var myDescription2 = document.getElementById("myprojectdescription2");
 var myDescription3 = document.getElementById("myprojectdescription3");
 var myDescription4 = document.getElementById("myprojectdescription4");
 var myDescription5 = document.getElementById("myprojectdescription5");
+var myDescription6 = document.getElementById("myprojectdescription6");
+var myDescription7 = document.getElementById("myprojectdescription7");
 myProject.addEventListener("scroll",slideDescription);
 function slideDescription(){
   var nbPixInvisible = myProject.scrollTop;
@@ -144,7 +147,7 @@ function slideDescription(){
   console.log(nbTotalPixInvisible);
   console.log(pourcentage);
 
-if(nbPixInvisible > 15 ){
+if(pourcentage > 5 ){
   myDescription.style.visibility = "hidden";
 
 }else{
@@ -153,7 +156,7 @@ if(nbPixInvisible > 15 ){
 myDescription1.style.backgroundColor = "#1c1b1b";
 myDescription1.style.color = "#dbd9d6";
 
-if(nbPixInvisible > 1400 && nbPixInvisible < 2300){
+if(pourcentage > 12 && pourcentage < 20){
   myDescription1.style.visibility ="visible";
   myImage.style.display ="none";
 }else{
@@ -164,7 +167,7 @@ if(nbPixInvisible > 1400 && nbPixInvisible < 2300){
   myDescription2.style.backgroundColor = "#0da5a0";
   myDescription2.style.color = "#ffffff";
 
-if(nbPixInvisible > 2800 && nbPixInvisible < 4200){
+if(pourcentage > 26 && pourcentage < 34){
   myDescription2.style.visibility ="visible";
   myImage1.style.display ="none";
 }else{
@@ -173,34 +176,57 @@ if(nbPixInvisible > 2800 && nbPixInvisible < 4200){
   }
 
   myDescription3.style.backgroundColor = "#9ea2ff";
-  myDescription3.style.color = "#ffffff";
+  myDescription3.style.color = "#43415d";
 
-if(nbPixInvisible > 4400){
+if(pourcentage > 40 && pourcentage < 48){
   myDescription3.style.visibility ="visible";
   myImage2.style.display ="none";
 }else{
   myDescription3.style.visibility ="hidden";
   myImage2.style.display ="block";
   }
-  if(nbPixInvisible > 5200){
+
+myDescription4.style.backgroundColor = "#1c1b1b";
+myDescription4.style.color = "#e65a30";
+
+  if(pourcentage > 56 && pourcentage < 64){
     myDescription4.style.visibility ="visible";
     myImage3.style.display ="none";
   }else{
     myDescription4.style.visibility ="hidden";
     myImage3.style.display ="block";
     }
-  if(nbPixInvisible > 7000){
+myDescription5.style.backgroundColor = "#ffd6d6";
+myDescription5.style.color = "#ef4c7d";
+  if(pourcentage > 70 && pourcentage < 78){
     myDescription5.style.visibility ="visible";
     myImage4.style.display ="none";
   }else{
     myDescription5.style.visibility ="hidden";
     myImage4.style.display ="block";
     }
-      function hideDescription(){
+myDescription6.style.backgroundColor = "#afafaf";
+myDescription6.style.color = "#000000";
+    if(pourcentage > 84 && pourcentage < 90){
+      myDescription6.style.visibility ="visible";
+      myImage5.style.display ="none";
+    }else{
+      myDescription6.style.visibility ="hidden";
+      myImage5.style.display ="block";
+      }
+myDescription7.style.backgroundColor = "#729172";
+myDescription7.style.color = "#ffffff";
+      if(pourcentage> 96){
+        myDescription7.style.visibility ="visible";
+        myImage6.style.display ="none";
+      }else{
+        myDescription7.style.visibility ="hidden";
+        myImage6.style.display ="block";
+        }
+    function hideDescription(){
     myDescription.style.visibility = "hidden";
   }
 };
-
 
 //CONTACT//
 // Il y a plusieurs façon de sélectionner un nœud DOM ; ici on récupère
